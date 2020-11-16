@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -67,3 +71,4 @@ the opposite part that will serve as a handle.\n\nStep 6:\nDesign the watering c
         tools:layout_editor_absoluteY="262dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
