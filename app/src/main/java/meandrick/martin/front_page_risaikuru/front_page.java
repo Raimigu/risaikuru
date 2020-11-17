@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.ImageButton;
 
 public class front_page extends AppCompatActivity {
+    //the Image buttons.
     private ImageButton i4;
     private ImageButton i6;
     private ImageButton i5;
