@@ -8,8 +8,8 @@ import android.view.View;
 import android.widget.ImageButton;
 
 public class paper_second_page extends AppCompatActivity {
-private ImageButton image5;
-private ImageButton image2;
+    private ImageButton image5;
+    private ImageButton image2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,11 +31,13 @@ private ImageButton image2;
             }
         });
     }
-    public void opendiy(){
+
+    public void opendiy() {
         Intent intent = new Intent(this, diy_paper_third_page.class);
         startActivity(intent);
     }
-    public void openpen(){
+
+    public void openpen() {
         Intent intent = new Intent(this, penstand_container_third_page.class);
         startActivity(intent);
     }

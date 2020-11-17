@@ -8,14 +8,15 @@ import android.view.View;
 import android.widget.ImageButton;
 
 public class bottle_second_page extends AppCompatActivity {
-private ImageButton image5;
-private ImageButton image2;
+    private ImageButton image5;
+    private ImageButton image2;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.bottle_second_page);
-        image5=(ImageButton) findViewById(R.id.image5);
-        image2=(ImageButton) findViewById(R.id.image2);
+        image5 = (ImageButton) findViewById(R.id.image5);
+        image2 = (ImageButton) findViewById(R.id.image2);
 
         image5.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -30,11 +31,13 @@ private ImageButton image2;
             }
         });
     }
-    public void openMango(){
+
+    public void openMango() {
         Intent intent = new Intent(this, mango_catcher_third_page.class);
         startActivity(intent);
     }
-    public void openFunnel(){
+
+    public void openFunnel() {
         Intent intent = new Intent(this, funnel_third_page.class);
         startActivity(intent);
     }

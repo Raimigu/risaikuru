@@ -31,11 +31,13 @@ public class cans_second_page extends AppCompatActivity {
             }
         });
     }
-    public void openpot(){
+
+    public void openpot() {
         Intent intent = new Intent(this, plant_pot_third_page.class);
         startActivity(intent);
     }
-    public void openwatering(){
+
+    public void openwatering() {
         Intent intent = new Intent(this, plant_pot_third_page.class);
         startActivity(intent);
     }
