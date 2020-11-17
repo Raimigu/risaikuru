@@ -17,9 +17,9 @@ public class front_page extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.front_page);
-i4 =(ImageButton) findViewById(R.id.i4);
-i6 =(ImageButton) findViewById(R.id.i6);
-i5 = (ImageButton) findViewById(R.id.i5);
+i4 =(ImageButton) findViewById(R.id.imageButton);
+i6 =(ImageButton) findViewById(R.id.imageButton2);
+i5 = (ImageButton) findViewById(R.id.imageButton3);
 
 i4.setOnClickListener(new View.OnClickListener() {
     @Override
