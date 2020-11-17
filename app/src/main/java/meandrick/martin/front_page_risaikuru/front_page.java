@@ -40,6 +40,7 @@ i5.setOnClickListener(new View.OnClickListener() {
     }
 });
     }
+    //this will call the file
     public void openActivity2(){
         Intent intent = new Intent(this, bottle_second_page.class);
         startActivity(intent);
